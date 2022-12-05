@@ -1,0 +1,3 @@
+name = "email_worker_parser"
+main = "src/index.js"
+compatibility_date = "2022-12-05"
