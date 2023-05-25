@@ -2,7 +2,7 @@
   "name": "email_worker_parser",
   "version": "0.0.0",
   "devDependencies": {
-    "wrangler": "2.6.0"
+    "wrangler": "3.0.1"
   },
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "deploy": "wrangler publish"
   },
   "dependencies": {
-    "postal-mime": "^1.0.13"
+    "postal-mime": "^1.0.16",
+    "mimetext": "^3.0.10"
   }
 }
